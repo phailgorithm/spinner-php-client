@@ -1,0 +1,23 @@
+{
+  "name": "phailgorithm/spinner-php-client",
+  "description": "A spinner microservice client library for PHP.",
+  "version": "0.1.2",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Phailgorithm\\SpinnerClient\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mohsin-Ul-Islam",
+      "email": "mohsinulislam180@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
